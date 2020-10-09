@@ -1,0 +1,84 @@
+<?php
+
+namespace PortfolioBundle\Entity;
+
+/**
+ * Comment
+ */
+class Comment
+{
+    /**
+     * @var int
+     */
+    private $id;
+
+    /**
+     * @var string
+     */
+    private $comment;
+
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set comment
+     *
+     * @param string $comment
+     *
+     * @return Comment
+     */
+    public function setComment($comment)
+    {
+        $this->comment = $comment;
+
+        return $this;
+    }
+
+    /**
+     * Get comment
+     *
+     * @return string
+     */
+    public function getComment()
+    {
+        return $this->comment;
+    }
+
+    /**
+     * @var \PortfolioBundle\Entity\Articles
+     */
+    private $article;
+
+
+    /**
+     * Set article
+     *
+     * @param \PortfolioBundle\Entity\Articles $article
+     *
+     * @return Comment
+     */
+    public function setArticle(\PortfolioBundle\Entity\Articles $article = null)
+    {
+        $this->article = $article;
+
+        return $this;
+    }
+
+    /**
+     * Get article
+     *
+     * @return \PortfolioBundle\Entity\Articles
+     */
+    public function getArticle()
+    {
+        return $this->article;
+    }
+}

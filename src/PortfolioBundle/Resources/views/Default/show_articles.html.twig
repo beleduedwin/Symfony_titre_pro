@@ -1,0 +1,77 @@
+{% extends '@Portfolio/Default/bases/base.html.twig' %}
+
+{% block body %}
+
+{#............................................ Show one article.......................................................#}
+
+        <div class="container show_article_bloc">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 ">
+                    <h4>{{ article.title }}</h4>
+                    <img class="show_img" src="{{ article.image }}" alt="">
+                    <div class="content_articles">
+                        <!--......................bloc autor ...................... -->
+                        <div class="top_article">
+                            <div class="img_autor">
+                                <img src="{{ asset('assets/images/calendrier.svg') }}" alt="">
+                            </div>
+                            <p>{{ article.publishedAt|date('d/m/y') }}</p>
+                            <p>Par Edwin beledu</p>
+                        </div>
+
+                        <p class="show_article_content">{{ article.content }}</p>
+                    </div>
+{#.............................................. Count Comments ............................................................#}
+                    <div class="count_comments">
+                        {% if article.comment|length == 1 %} <i class="far fa fa-comments"></i>{{ article.comment|length }} commentaire {% elseif article.comment|length > 1 %}<i class="far fa fa-comments"></i> {{ article.comment|length }} commentaires{% endif%}
+                    </div>
+
+{#.....................Include comments....................#}
+
+                    <div class="box">
+                        <p>
+                            <button class="btn btn-primary">Voir les commentaires</button>
+                        </p>
+                        <div class="bg-info">
+                            {% include '@Portfolio/Default/view_comments.html.twig' %}
+                        </div>
+
+                    </div>
+
+
+                    <hr size="1" color="#5e5e5e">
+{#.............................................. Include of Comments form ............................................................#}
+
+
+                    <h5>Partagez votre réaction</h5>
+
+                    {% include '@Portfolio/Default/formulaires/form_comments.html.twig' %}
+
+                </div>
+
+{#................................................. Include Side bar..................................................#}
+
+                <div class="col-md-4 col-xs-12 recent_article_bloc">
+                    <h4>Dernier articles publiés</h4>
+
+                    {% include '@Portfolio/Default/side_bar.html.twig' %}
+                    <a class="link_articles"  href="{{ path('portfolio_all_articles') }}"><p>Voir tous les articles</p></a>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+//******************************************************** Header******************************************************//
+
+.navbar-custom{
+  background-color:rgba(255, 255, 255, 0.1);;
+  //background-color: #282e3e;
+  //color: #FFF;
+  color: #999999;
+  border-radius: 0;
+  padding: 10px;
+}
+.navbar-custom .navbar-nav>li>a{
+  //color: #FFF;
+  color: #1a1a1a;
+  font-size: 19px;
+  margin-left: 13px;
+}
+.navbar-custom .navbar-nav>.active>a{
+  color: #1a1a1a;
+}
+.navbar-header a{
+  color: #1a1a1a;
+}
+.navbar-custom .navbar-nav>li>a:hover{
+  background-color:#d9d9d9;
+  //background-color:#1b6d85;
+  color: black;
+}
+.navbar-custom .navbar-brand{
+  color:#FFF;
+  font-size: 27px;
+  margin-left: 15px;
+}
+.navbar-custom .navbar-brand:hover{
+  color:#FFF;
+  font-size: 27px;
+}

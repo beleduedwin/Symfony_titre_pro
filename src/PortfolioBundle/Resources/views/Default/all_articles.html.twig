@@ -1,0 +1,56 @@
+{% extends '@Portfolio/Default/bases/base.html.twig' %}
+
+{% block body %}
+    <div class="all_article_bloc">
+        <div class="container  all_article">
+            <h3>Tous les articles publiés</h3>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    {% for article in articles %}
+                        <div class="articles_bloc">
+                            <div class="articles_image">
+                                <img src="{{ article.image }}" alt="image de l'article" class="img-responsive">
+                            </div>
+                            <div class="content_articles">
+                                <div class="top_article">
+                                    <div class="img_autor">
+                                        <img src="{{ asset('assets/images/calendrier.svg') }}" alt="">
+                                    </div>
+                                    <p>{{ "now"|date("m/d/Y") }}</p>
+                                    <a href="https://github.com/beleduedwin"><p>Par Edwin beledu</p></a>
+                                </div>
+                                <a href="{{ path('portfolio_show_article', {'id': article.id}) }}" class="">
+                                    <h4>{{ article.title }}</h4>
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {#............... paginator ...........#}
+
+        <div class="navigation text-center">
+            {{ knp_pagination_render(articles) }}
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+
+{% for comment in comments %}
+<div>
+    <p class="pseudo">Pseudo : {{ comment.author }}</p>
+    <p>{{ comment.comment }}</p>
+    <p>Publié le {{ comment.date|date('d/m/y') }}</p>
+</div>
+{% endfor %}

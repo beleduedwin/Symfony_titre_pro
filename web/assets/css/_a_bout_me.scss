@@ -1,0 +1,123 @@
+/************************************************** A bout me ************************************************************/
+.a_propos_section {
+  padding-top: $sectPaddingTop;
+  min-height: 600px;
+  width: 100%;
+  background-color: #1a1a1a; }
+.a_propos_section h3 {
+  color: white; }
+
+.a_propos_section p {
+  font-size: 18px;
+  color: #c5c5c5; }
+.skill-bar-block h5{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.outils {
+  padding-top: 20px;
+  min-height: 700px;
+  background-color:#5a6268;
+color: black;}
+
+.outils a {
+  padding-bottom: 0; }
+
+.skill_bloc {
+  //background-color: #1b6d85;
+  min-height: 700px;
+  padding-top: 20px; }
+
+.method_agile {
+  text-align: left;
+  padding-left: 20px; }
+
+.autres_comp {
+  padding-top: 20px;
+  text-align: center;
+  }
+
+.flexx {
+  display: flex;
+  margin-left: 20px; }
+
+/********************** skill-bar *****************/
+.skill-bar-block {
+  margin: 0 auto;
+  width: 75%;
+  height: 75%;
+  padding-top: 20px; }
+
+.skillbar {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  background: #eee;
+  height: 35px;
+  border-radius: 3px;
+  transition: 0.1s linear;
+  transition-property: width, background-color; }
+
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  background: #6adcfa;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px; }
+
+.skillbar-title span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px; }
+
+.skillbar-bar {
+  height: 35px;
+  width: 0px;
+  background: #6adcfa;
+  border-radius: 3px; }
+
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 35px;
+  line-height: 35px;
+  color: #ffffff;
+  color: rgba(0, 0, 0, 0.4); }
+
+.level {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #333333; }
+
+.ligne_verticale {
+  position: relative;
+  width: 5px;
+  border-left: 1px solid gray;
+  height: 30px;
+  left: 60px; }
+
+.ligne_verticale:last-child {
+  left: 0; }
+
+.ligne_verticale:first-child {
+  left: 108px; }
+
+.level p:first-child {
+  left: 0; }
+
+
+

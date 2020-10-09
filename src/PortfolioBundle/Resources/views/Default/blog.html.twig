@@ -1,0 +1,39 @@
+
+{% block body %}
+<section id="blog" class="blog-section blog">
+    <h3> Blog veille sur le web</h3>
+    <h5>Découvrez toutes les nouveautés, <br>
+        les actualités, et les tutoriels.</h5>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+
+                {#....................... Include of five last articles ...............#}
+
+                {% include '@Portfolio/Default/published_articles.twig' %}
+
+            </div>
+
+            <div class="col-md-4 side ">
+
+            {#....................... Include side bar ...............#}
+
+                <a class="twitter-timeline twitter l" data-dnt="true" href="https://twitter.com/mythicalpizza" data-widget-id="343053082919333888">Tweets by @mythicalpizza</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+            {#</div>#}
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <a href="{{ path('portfolio_all_articles') }}"><p>Voir tous les articles</p></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
+
+
+
+
+

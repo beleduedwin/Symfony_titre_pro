@@ -1,0 +1,14 @@
+portfolio:
+    resource: "@PortfolioBundle/Resources/config/routing.xml"
+    prefix:   /portfolio/
+
+blog:
+    resource: "@BlogBundle/Resources/config/routing.xml"
+    prefix:   /blog/
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+logout:
+    path: /logout

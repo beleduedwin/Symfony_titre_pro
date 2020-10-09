@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('assets/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/admin.css') }}">
+    <title>Document</title>
+    {% endblock %}
+</head>
+<body>
+    {% block header %}
+        <div class="header">
+        <div class="logo_bloc">
+        <img src="{{ asset('assets/images/compte.png') }}" alt="Admin logo" class="admin_logo">
+        </div>
+        <p>Administration</p>
+        </div>
+    {% endblock %}
+
+    {% block side %}
+        <div class="col-md-3 col-sm-12 sideBar">
+            <ul>
+                <li><a href="{{ path('add_article') }}"><i class="fa fa-2x fa-plus" aria-hidden="true"> Ajouter un article</i></a></li>
+                <li><a class="link_articles"  href="{{ path('portfolio_admin_articles') }}"><i class="fa fa-2x fa-newspaper-o" aria-hidden="true"> Voir les articles</i></a></li>
+                <li><a href="{{ path('portfolio_logout') }}"><i class="fa fa-2x  fa-sign-out-alt">Deconnexion</i></a></li>
+            </ul>
+        </div>
+    {% endblock %}
+
+
+    {% block body %}
+
+
+    {% endblock %}
+
+<script src="{{ asset('assets/js/wow.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
+<script src="{{ asset('assets/js/admin.js') }}"></script>
+</body>
+</html>

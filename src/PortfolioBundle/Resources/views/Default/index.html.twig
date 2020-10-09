@@ -1,0 +1,219 @@
+
+{% extends '@Portfolio/Default/bases/base.html.twig' %}
+
+{#********************************** Block Body ************************************************************************#}
+
+{% block body %}
+
+{#<!--******************************************** Home section *******************************************************-->#}
+
+    <section id="home" class="home-section">
+        <h1>Edwin Beledu</h1>
+        <h2><strong>Développeuse web FullStack</strong></h2>
+        <div class="line">
+            <hr size="1" color="#5e5e5e">
+        </div>
+
+        <div class="container-profil-img">
+        <img src="{{ asset('assets/images/profil_portfolio.jpg') }}" alt="">
+        </div>
+        <div class="container-profil-github">
+        <button class="clic"><a href="https://github.com/beleduedwin">Voir mon profil Github</a></button>
+        </div>
+
+    </section>
+
+{#<!--******************************************** A bout me section *******************************************************-->#}
+
+    <section id="a_propos" class="a_propos_section">
+            <h3>À propos</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 outils">
+                            <h5>Outils et environnements :</h5>
+
+                            <p>Linux & Windows.</p>
+                            <p>Git & Github.</p>
+
+                            <p>Méthode Agile.</p>
+                            <h5  class="autres_comp">Autres compétences</h5>
+                        <ul>
+                            <li>Sens du relationnel, travail en équipe et relation client</li>
+                            <li>Sens de l'organisation et autonomie</li>
+                        </ul>
+                        <a href="{{ asset('pdf/cv_beledu.pdf') }}">Vous pouvez télécharger mon cv</a>
+                        <p>Téléphone : 0628038700</p>
+                        <p>E-mail : beleduedwin@yahoo.fr</p>
+                    </div>
+                    <div class="col-md-8 skill_bloc">
+                        <p>Bienvenue, <br>
+                            Je m'appelle Edwin, je suis <strong>Développeur junior Front-End & Back-End</strong> je me passionne pour le développement front-end et back-end.
+                            Mon but est d'associer design et technologie, afin de créer des sites internet attractifs ainsi que des applications web.
+                            Je suis capable d'utiliser différentes technologies comme HTML5 & CSS3, JavaScript, PHP, symfony, jquery, de même que d'utiliser des CMS comme Wordpress; et Design mobile & UX.
+                            Vous trouverez sur mon site mon CV ainsi que des projets réalisés durant mes études ou durant mon temps libre.</p>
+
+{#****************** Skill-bar ********************************#}
+
+                        <div class="skill-bar-block">
+                            <h5>Ce que je sais faire</h5>
+                            <div class="level">
+                                <p>Apprenti</p>
+                                <p>Les bases</p>
+                                <p>Correct</p>
+                                <p>Bon</p>
+                                <p>Expert</p>
+                            </div>
+
+                            <div class="level">
+                                <div class="ligne_verticale"></div>
+                                <div class="ligne_verticale"></div>
+                                <div class="ligne_verticale"></div>
+                                <div class="ligne_verticale"></div>
+                                <div class="ligne_verticale"></div>
+                            </div>
+
+                            <div class="skillbar clearfix" data-percent="40%">
+                                <div class="skillbar-title"><span>HTML5/CSS3</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">50%</div>
+                            </div>
+
+                            <div class="skillbar clearfix" data-percent="25%">
+                                <div class="skillbar-title"><span>JAVASCRIPT</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">25%</div>
+                            </div>
+
+                            <div class="skillbar clearfix" data-percent="25%">
+                                <div class="skillbar-title"><span>JQUERY</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">25%</div>
+                            </div>
+
+                            <div class="skillbar clearfix" data-percent="50%">
+                                <div class="skillbar-title"><span>MYSQL</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">50%</div>
+                            </div>
+
+                            <div class="skillbar clearfix" data-percent="35%">
+                                <div class="skillbar-title"><span>PHP</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">35%</div>
+                            </div>
+
+                            <div class="skillbar clearfix" data-percent="35%">
+                                <div class="skillbar-title"><span>SYMFONY</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">35%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+{#<!--****************************************** Professionnels experiences section **************************************************** -->#}
+
+    <section id="experiences" class="experiences-section">
+            <h3>Mes compétences</h3>
+        <div class="container experiences_bloc">
+            <div class="row">
+                <div class="col-md-3 experiences">
+                    <div class="col1 ">
+                        <div class="icons">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <h4><strong>Web Design</strong></h4><br>
+                        <p>Sites web adaptatifs ou « Responsive Web design » (RWD), consultables à travers une large gamme d’appareils (ordinateurs de bureau, smartphones, tablettes, etc.)</p>
+                        <br>
+                        <a href=""><p>Voir</p></a>
+                    </div>
+                </div>
+                <div class="col-md-3 experiences">
+                    <div class="col1">
+                        <div class="icons">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <h4><strong>Mobile Development</strong></h4><br>
+                        <p>Applications et sites responsives.
+                            Mobile first & media queries.</p>
+                        <br>
+                        <a href=""><p>Voir</p></a>
+                    </div>
+                </div>
+                <div class="col-md-3 experiences">
+                    <div class="col1">
+                        <div class="icons">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <h4><strong>Software Development</strong></h4><br>
+                        <p>Création de sites Wordpress, Symphony
+                            & e-commerces Prestashop.</p>
+                        <br>
+                        <a href=""><p>Voir</p></a>
+                    </div>
+                </div>
+                <div class="col-md-3 experiences">
+                    <div class="col1">
+                        <div class="icons">
+                            <i class="fa fa-signal"></i>
+                        </div>
+                        <h4><strong>SEO</strong></h4><br>
+                        <p>optimisation de site pour les moteurs de recherche</p>
+                        <br>
+                        <a href=""><p>Voir</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{#--****************************************** Realisations **********************************************#}
+
+                <h3>Mes réalisations</h3>
+                <p>Une sélection de quelques travail pratiques au cours de ma formation</p>
+            <div class="container ">
+                <div class="row realisations_row">
+                    <div class="col-md-3 col-sm-6">
+                        <p>Site restauranr php</p>
+                        <div class="realisations_1">
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <p>Portfolio Symfony 3.4 /php</p>
+                        <div class="realisations_2">
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <p>Maquette portfolio photoshop</p>
+                        <div class="realisations_3">
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                       <p>Maquette portfolio photoshop</p>
+                        <div class="realisations_4">
+                            <img src="{{ asset('assets/images/responsive_blog_2.png') }}" alt="image site restaurant" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+{#<!--************************************************* Blog section ********************************************************** -->#}
+
+    {% include '@Portfolio/Default/blog.html.twig' %}
+
+{#<!--******************************************* Contact section ************************************************************ -->#}
+
+    {% include '@Portfolio/Default/contact.html.twig' %}
+
+
+{% endblock %}
+
+
+
+
+

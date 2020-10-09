@@ -1,0 +1,609 @@
+/*body {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+/*h1,h2, h3{*/
+    /*!*padding-top: 70px;*!*/
+    /*color: #DE584D;*/
+/*}*/
+
+/*!******************************************** Header **************************************************!*/
+
+/*.menu-icon{*/
+    /*display: none;*/
+/*}*/
+/*.head{*/
+    /*width: 100%;*/
+    /*height:70px;*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*z-index: 999;*/
+    /*background-color: rgba(100,100,100,.1);*/
+/*}*/
+/*.head ul{*/
+    /*list-style-type: none;*/
+    /*background: rgba(0,0,0,0);*/
+    /*overflow: hidden;*/
+    /*color: #fff;*/
+    /*padding: 0;*/
+    /*text-align: center;*/
+    /*margin: 0;*/
+    /*transition: 1s;*/
+/*}*/
+/*.head.black ul{*/
+    /*background: rgba(100,100,100,.3);;*/
+/*}*/
+/*.head ul li {*/
+    /*display: inline-block;*/
+    /*padding: 20px;*/
+/*}*/
+/*.head ul li a {*/
+    /*text-decoration: none;*/
+    /*color:white;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.menu-icon{*/
+    /*width: 100%;*/
+    /*background: #000;*/
+    /*text-align: right;*/
+    /*box-sizing: border-box;*/
+    /*padding: 15px 24px;*/
+    /*cursor: pointer;*/
+    /*color: #FFF;*/
+    /*display: none;*/
+/*}*/
+
+/*!**..........................................Section Accueil...................................................... **!*/
+
+/*.portfolio-section {*/
+    /*min-height: 100vh;*/
+    /*!*height: 100vh;*!*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*background-image: url("../../../assets/images/img_background.jpg");*/
+    /*!*background-repeat: no-repeat center fixed;*!*/
+    /*background-size: cover;*/
+    /*padding-top: 300px;*/
+
+/*}*/
+
+/*.portfolio-section h1{*/
+    /*!*padding-top: 200px;*!*/
+    /*color: #AAAAAA;*/
+/*}*/
+/*.container-profil-img{*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+    /*margin: 0 auto;*/
+    /*margin-top: 50px;*/
+/*}*/
+/*.container-profil-img img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*border-radius: 200px;*/
+    /*border: solid white;*/
+/*}*/
+/*.container-profil-github{*/
+    /*text-align: center;*/
+    /*color: white;*/
+/*}*/
+/*.container-profil-github p{*/
+    /*color: black;*/
+/*}*/
+
+/*!**..........................................Section A propos...................................................... **!*/
+
+/*.a_propos_section{*/
+    /*width: 100%;*/
+    /*height: 100vh;*/
+    /*!*min-height: 100vh;*!*/
+    /*text-align: center;*/
+    /*background: #eee;*/
+    /*padding-left: 0;*/
+/*}*/
+/*!*essaie design.....*!*/
+
+/*.left{*/
+    /*width: 33%;*/
+/*}*/
+/*.left{*/
+    /*width: 33%;*/
+/*}*/
+/*.experiences{*/
+    /*min-height: 500px;*/
+    /*background-color:white;*/
+    /*width: 32%;*/
+    /*float: left;*/
+    /*margin-left: 5%;*/
+/*}*/
+/*.bloc_sides{*/
+    /*margin-top: 0;*/
+    /*height: 25%;*/
+    /*width: 100%;*/
+    /*!*background-color: #0000F0;*!*/
+/*}*/
+/*.side_1{*/
+    /*width: 75%;*/
+    /*background-color:#5e5e5e;*/
+    /*height: 100%;*/
+    /*float: left;*/
+    /*color: #8e8e8e;*/
+/*}*/
+/*.side_1 h4{*/
+    /*padding-top: 100px;*/
+/*}*/
+/*.side_2{*/
+    /*width: 25%;*/
+    /*background-color: #EEE8D2;*/
+    /*height: 100%;*/
+    /*float: right;*/
+    /*padding-top: 60px;*/
+/*}*/
+/*!*.side_2 h1{*!*/
+    /*!*padding-top: 100px;*!*/
+/*!*}*!*/
+/*.realisations_bloc{*/
+    /*height: 75%;*/
+    /*width: 25%;*/
+    /*background-color: #AAAAAA;*/
+    /*float: left;*/
+/*}*/
+
+/*!************************************** Réalisations bloc **************************************************!*/
+
+/*.realisations{*/
+    /*width: 90%;*/
+    /*height: 90%;*/
+    /*background-color: #f9f9f9;*/
+    /*margin : 30px auto;*/
+    /*border-radius: 8px;*/
+/*}*/
+/*.realisations h4{*/
+    /*padding-top: 20px;*/
+/*}*/
+/*!*.realisations h6{*!*/
+    /*!*text-align: right;*!*/
+/*!*}*!*/
+
+/*!************************************** A propos bloc **************************************************!*/
+/*.a_propos{*/
+    /*float: right;*/
+    /*width: 75%;*/
+    /*height: 75%;*/
+    /*background-color: #DE584D;*/
+    /*padding: 20px;*/
+
+/*}*/
+/*.a_propos_text{*/
+    /*!*background-color: yellow;*!*/
+    /*width: 700px;*/
+    /*float: left;*/
+    /*margin-left: 150px;*/
+    /*margin-top: 50px;*/
+/*}*/
+/*.a_propos_text p{*/
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    /*font-size: 25px;*/
+    /*text-align: left;*/
+
+/*}*/
+/*.picto{*/
+    /*!*background-color: whitesmoke;*!*/
+    /*height: 100%;*/
+    /*width: 40px;*/
+    /*float: right;*/
+    /*margin-top: 0;*/
+    /*padding-top: 150px;*/
+/*}*/
+
+/*!**.......................................... Compétences Section ...................................................... **!*/
+
+/*.competences-section {*/
+    /*width: 100%;*/
+    /*height: 100vh;*/
+    /*!*min-height: 100vh;*!*/
+    /*text-align: center;*/
+    /*background:whitesmoke;*/
+
+/*}*/
+/*.realisations-section h1{*/
+    /*text-align: center;*/
+/*}*/
+/*.method_agile{*/
+    /*color: red;*/
+    /*text-align: left;*/
+    /*padding-left: 20px;*/
+/*}*/
+/*.autres_comp{*/
+    /*padding-top: 20px;*/
+    /*text-align: center;*/
+    /*padding-left: 20px;*/
+/*}*/
+/*.rouge*/
+/*{*/
+    /*color : red;*/
+/*}*/
+/*.flexx{*/
+    /*display: flex;*/
+    /*margin-left: 20px;*/
+
+/*}*/
+
+/*!*skill-bar*!*/
+
+/*.skill-bar-block{*/
+    /*float: right;*/
+    /*width: 75%;*/
+    /*height: 75%;*/
+    /*background-color: rgba(255, 255, 255, .35);*/
+    /*padding: 20px;*/
+    /*padding-top: 100px;*/
+/*}*/
+
+/*.skillbar{*/
+    /*position: relative;*/
+    /*display: block;*/
+    /*margin-bottom: 15px;width: 100%;*/
+    /*background:#eee;*/
+    /*height: 35px;*/
+    /*border-radius: 3px;*/
+    /*transition: 0.1s linear;*/
+    /*transition-property: width, background-color;*/
+/*}*/
+
+/*.skillbar-title{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 110px;*/
+    /*font-weight: bold;*/
+    /*font-size: 13px;*/
+    /*color: #ffffff;*/
+    /*background: #6adcfa;*/
+    /*border-top-left-radius: 3px;*/
+    /*border-bottom-left-radius: 3px;*/
+/*}*/
+/*.skillbar-title span{*/
+    /*display: block;*/
+    /*background: rgba(0,0,0,0.1);*/
+    /*padding: 0 20px;*/
+    /*height: 35px;line-height: 35px;*/
+    /*border-top-left-radius: 3px;*/
+    /*border-bottom-left-radius: 3px;*/
+/*}*/
+/*.skillbar-bar{*/
+    /*height: 35px;*/
+    /*width: 0px;*/
+    /*background: #6adcfa;*/
+    /*border-radius: 3px;*/
+/*}*/
+/*.skill-bar-percent{*/
+    /*position: absolute;*/
+    /*right: 10px;*/
+    /*top: 0;*/
+    /*font-size: 11px;*/
+    /*height: 35px;line-height: 35px;*/
+    /*color: #ffffff;*/
+    /*color:rgba(0,0,0,0.4);*/
+/*}*/
+/*.level{*/
+    /*display: flex;*/
+    /*flex-wrap:wrap;*/
+    /*justify-content: space-between;*/
+    /*color:#333333;*/
+/*}*/
+/*.ligne_verticale*/
+/*{*/
+    /*position: relative;*/
+    /*width:5px;*/
+    /*border-left:1px solid gray;*/
+    /*height:30px;*/
+    /*left: 24px;*/
+/*}*/
+/*.ligne_verticale:last-child{*/
+    /*left: 0;*/
+/*}*/
+/*.ligne_verticale:first-child{*/
+    /*left: 108px;*/
+/*}*/
+/*.level p:first-child{*/
+    /*left: 0;*/
+/*}*/
+
+
+/*!**.......................................... Bog Section ...................................................... **!*/
+
+/*.blog {*/
+    /*width: 100%;*/
+    /*!*min-height: 100vh;*!*/
+    /*height: 100vh;*/
+    /*!*padding-top: 100px;*!*/
+    /*text-align: center;*/
+    /*background: #eee;*/
+    /*margin-top: 0!important;*/
+/*}*/
+/*.image{*/
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin-bottom: 20px;*/
+    /*margin-right: 10px;*/
+/*}*/
+/*img{*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+/*}*/
+
+/*.articles_bloc{*/
+    /*display: flex;*/
+    /*justify-content: right;*/
+/*}*/
+/*.top_article{*/
+    /*height: 30px;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+/*}*/
+/*.top_article p{*/
+    /*margin-right:10px;*/
+    /*color: #5e5e5e;*/
+    /*font-size: 12px;*/
+/*}*/
+/*.img_autor{*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*margin-right:10px;*/
+/*}*/
+
+/*.img_autor img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+/*.l{*/
+    /*height: 100px!important;*/
+/*}*/
+
+/*!*!********************************************* Show article Style ********************************************!*!*/
+/*.show_article{*/
+    /*min-height: 100vh;*/
+    /*width: 100%;*/
+/*}*/
+/*.container{*/
+    /*background-color: white;*/
+    /*padding-top: 0;*/
+    /*!*margin-top: 200px;*!*/
+/*}*/
+
+/*.trait{*/
+    /*margin-top: 200px;*/
+    /*margin-bottom: 0px;*/
+/*}*/
+/*.link_articles{*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*!*!*........ css picto........*!*!*/
+
+/*.top_article{*/
+    /*height: 25px;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*margin-top: 0;*/
+    /*padding-top: 0;*/
+/*}*/
+/*.top_article p{*/
+    /*color: #5e5e5e;*/
+    /*font-size: 12px;*/
+    /*padding-top: 5px;*/
+/*}*/
+/*.img_autor{*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*margin-right:10px;*/
+/*}*/
+
+/*.img_autor img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+/*.show_img{*/
+    /*width: 100%;*/
+    /*padding-top: 10px;*/
+/*}*/
+
+
+/*!*Commentaires*!*/
+
+/*.pseudo{*/
+    /*color: #198fff;*/
+    /*padding-top: 10px;*/
+/*}*/
+/*.bloc_picto_comments{*/
+    /*!*height: 30px;*!*/
+    /*!*width: 100%;*!*/
+    /*display: flex;*/
+    /*!*flex-wrap: wrap;*!*/
+/*}*/
+/*.bloc_picto_comments p{*/
+    /*padding-left: 10px;*/
+/*}*/
+
+
+/*!*!*................ Side bar ...................*!*!*/
+
+/*.side_bar{*/
+    /*background-color: #3b5998;*/
+    /*height: 30px;*/
+    /*float: right;*/
+/*}*/
+/*.side_bar h6{*/
+    /*text-align: center;*/
+    /*color: white;*/
+/*}*/
+/*.recent_article_bloc{*/
+    /*height:fit-content;*/
+    /*background-color: #eaeaea;*/
+    /*padding-left: 40px;*/
+    /*padding-top: 10px;*/
+/*}*/
+/*.flex{*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*margin-top: 15px;*/
+/*}*/
+/*.image_side{*/
+    /*width: 310px;*/
+    /*height: 150px;*/
+/*}*/
+/*.titre{*/
+    /*margin-bottom: 20px;*/
+/*}*/
+/*.titre h3{*/
+    /*font-size: 17px;*/
+/*}*/
+/*.titre p{*/
+    /*font-size: 15px;*/
+/*}*/
+/*.row{*/
+    /*padding-right: 10px;*/
+    /*!*padding-top: 10px;*!*/
+/*}*/
+
+/*.row_1{*/
+    /*padding-top: 10px;*/
+/*}*/
+
+
+/*!*....... published article *!*/
+
+/*.image{*/
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin-bottom: 20px;*/
+    /*margin-right: 10px;*/
+/*}*/
+/*img{*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+/*}*/
+/*.articles_bloc{*/
+    /*display: flex;*/
+    /*justify-content: right;*/
+/*}*/
+/*.top_article{*/
+    /*height: 25px;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*margin-top: 0;*/
+    /*padding-top: 0;*/
+/*}*/
+/*.top_article p{*/
+    /*color: #5e5e5e;*/
+    /*font-size: 12px;*/
+    /*padding-top: 5px;*/
+/*}*/
+/*.img_autor{*/
+    /*width: 15px;*/
+    /*height: 15px;*/
+/*}*/
+/*.img_autor img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+/*.content_articles p{*/
+    /*color: #5e5e5e;*/
+/*}*/
+
+/*!**..........................................Contact Section ...................................................... **!*/
+
+/*.contact-section {*/
+    /*width: 100%;*/
+    /*min-height: 100vh;*/
+    /*padding-top: 150px;*/
+    /*text-align: center;*/
+    /*background:silver!important;*/
+    /*margin-bottom: 0;*/
+    /*color: #080808;*/
+    /*padding-bottom: 0;*/
+/*}*/
+/*.container_iframe{*/
+    /*height: 500px;*/
+    /*background-color:#333333;*/
+/*}*/
+/*iframe{*/
+    /*padding-top: 40px;*/
+/*}*/
+
+/*!*................Slider style .......................*!*/
+
+/*.slides{*/
+    /*padding-bottom: 20px;*/
+/*}*/
+
+/*.billbord {*/
+    /*width: 100%;*/
+    /*position: relative;*/
+    /*overflow:hidden;*/
+    /*background-color: #000;*/
+/*}*/
+/*.container img{*/
+    /*width: 100%;*/
+/*}*/
+/*.gallery{*/
+    /*display: flex;*/
+/*}*/
+/*.gallery img{*/
+    /*display: block;*/
+    /*height: 100%;*/
+/*}*/
+
+/*!**..........................................Form articles ...................................................... **!*/
+
+
+
+/*!**..........................................media...................................................... **!*/
+
+/*@media(max-width: 580PX){*/
+    /*nav ul{*/
+        /*max-height: 0px;*/
+        /*background: #000;*/
+    /*}*/
+    /*nav.black ul{*/
+        /*background: #000;*/
+    /*}*/
+    /*.showing {*/
+        /*max-height: 20em;*/
+    /*}*/
+    /*nav ul li{*/
+        /*box-sizing: border-box;*/
+        /*width: 100%;*/
+        /*padding: 24px O;*/
+        /*text-align: center;*/
+    /*}*/
+    /*.menu-icon{*/
+        /*display: block;*/
+    /*}*/
+    /*.container_iframe{*/
+        /*height: 500px;*/
+        /*background-color:#333333;*/
+    /*}*/
+    /*iframe{*/
+        /*padding-top: 40px;*/
+    /*}*/
+
+    /*.portfolio-section {*/
+        /*!*min-height: 100vh;*!*/
+        /*!*height: 100vh;*!*/
+        /*!*width: 100%;*!*/
+        /*text-align: center;*/
+        /*background-image: url("../../../assets/images/img_background.jpg");*/
+        /*!*background-repeat: no-repeat center fixed;*!*/
+        /*background-size: cover;*/
+        /*padding-top: 300px;*/
+
+    /*}*/
+/*}*/
+

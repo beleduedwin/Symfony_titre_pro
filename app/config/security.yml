@@ -1,0 +1,46 @@
+# To get started with security, check out the documentation:
+# https://symfony.com/doc/current/security.html
+security:
+
+    # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+    providers:
+        in_memory:
+            memory:
+                users:
+                    admin:
+                        password: test
+                        roles: 'ROLE_ADMIN'
+
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        main:
+            pattern:  ^/
+            anonymous: ~
+            switch_user: true
+            http_basic: ~
+
+
+            logout:
+                 path:   /logout
+                 target: /portfolio/index
+            anonymous: true
+#    firewalls:
+#        # disables authentication for assets and the profiler, adapt it according to your needs
+#        dev:
+#            pattern: ^/(_(profiler|wdt)|css|images|js)/
+#            security: false
+#
+#        main:
+#            anonymous: ~
+#            http_basic: ~
+
+    access_control:
+        # require ROLE_ADMIN for /admin*
+        - { path: ^/portfolio/admin, roles: ROLE_ADMIN }
+
+    encoders:
+            Symfony\Component\Security\Core\User\User: plaintext

@@ -1,0 +1,215 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #f2f2f2;
+}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 4em;
+}
+
+/**.............................. Menu ...................................... **/
+
+#menu li {
+    display:inline-block;
+    margin: 10px;
+    color: #000;
+    background:#fff;
+    background: rgba(255,255,255, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#menu li.active{
+    background:#666;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+}
+#menu li a{
+    text-decoration:none;
+    color: #000;
+}
+#menu li.active a:hover{
+    color: #000;
+}
+#menu li:hover{
+    background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+    padding: 9px 18px;
+    display:block;
+}
+#menu li.active a{
+    color: #fff;
+}
+#menu{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+
+/**.............................. Accueil ...................................... **/
+
+.accueil{
+    height: 100%;
+    text-align: center;
+    background-image: url("../images/clavier.jpg");
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+}
+.accueil h1{
+    padding-top: 300px;
+}
+.container-profil-img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.container-profil-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    border: solid white;
+}
+.container-profil-github{
+    text-align: center;
+    color: white;
+}
+.container-profil-github h5{
+    color: black;
+}
+
+/**.............................. A propos ...................................... **/
+
+.a_propos{
+    height: 100%;
+    text-align: center;
+    background-color: #AAAAAA!important;
+    padding-top: 0;
+}
+.a_propos h1{
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+}
+
+/**.............................. Mes réalisations ...................................... **/
+
+.realisations {
+    height: 100%;
+    background:white;
+}
+
+.realisations h1{
+    text-align: center;
+    padding-top: 100px;
+}
+
+/**.............................. blog ...................................... **/
+
+.blog-section {
+    height:100%;
+    padding-top: 80px;
+    background:silver!important;
+    color: black;
+}
+.article_bloc{
+    background-color: white;
+    height: 300px;
+}
+.article_bloc h2{
+    padding-bottom: 10px;
+}
+.container-img{
+    width: 20px;
+    height: 20px;
+}
+.container-img img{
+    width: 100%;
+    height: 100%;
+}
+.auteur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px;
+    padding-right: 5px;
+}
+.twitter{
+    height: 200px!important;
+}
+
+/**...................................Articles récents ................................. **/
+.recent_article_bloc{
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+/**...................................Sociale ................................. **/
+
+.social_bloc{
+    height: 150px;
+    background-color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.social_bloc h4{
+    padding-bottom: 20px;
+}
+
+.social_bloc ul li{
+    list-style: none;
+    display: inline;
+    border-radius: 40px;
+}
+
+.social_bloc ul{
+    text-align: center;
+
+}
+
+.social_bloc ul a{
+
+    width: 50px;
+    height: 40px;
+
+}
+
+
+/**.............................. contact ...................................... **/
+
+.contact {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background:silver;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.container_iframe{
+    height: 500px;
+    background-color:#333333;
+}
+iframe{
+    padding-top: 40px;
+}
+
+
+
+

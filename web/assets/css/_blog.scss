@@ -1,0 +1,37 @@
+/************************************************** Blog section ************************************************************/
+
+.blog {
+  width: $width;
+  min-height: 700px;
+  padding-top: $sectPaddingTop;
+  text-align: center;
+  background: #eee;
+  margin-top: 0!important;
+}
+.blog h5{
+  padding-bottom: 45px;
+}
+.articles_bloc{
+  display: flex;
+  justify-content: right;
+}
+.top_article{
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.top_article p{
+  margin-right:10px;
+  color: #5e5e5e;
+  font-size: 12px;
+}
+.img_autor{
+  width: 20px;
+  height: 20px;
+  margin-right:10px;
+}
+.img_autor img{
+  width: $width;
+  height: $width;
+}

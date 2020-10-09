@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="portfolio_admin" path="/admin">
+        <default key="_controller">AppBundle:Default:admin</default>
+    </route>
+
+    <route id="portfolio_admin_articles" path="/admin_articles">
+        <default key="_controller">PortfolioBundle:Default:articles_list</default>
+    </route>
+
+    <route id="portfolio_form" path="/form">
+        <default key="_controller">PortfolioBundle:Form:form</default>
+    </route>
+    <route id="portfolio_homepage" path="/index">
+        <default key="_controller">PortfolioBundle:Default:index</default>
+    </route>
+
+    <route id="portfolio_accueil" path="/accueil">
+        <default key="_controller">PortfolioBundle:Default:accueil</default>
+    </route>
+
+    <route id="portfolio_show_article" path="/show_article/{id}">
+        <default key="_controller">PortfolioBundle:Default:showArticle</default>
+    </route>
+
+    <route id="portfolio_show_comment" path="/show_comments/{id}">
+        <default key="_controller">PortfolioBundle:Default:showComments</default>
+    </route>
+
+    <route id="portfolio_renderArticles" path="/renderArticles">
+        <default key="_controller">PortfolioBundle:Default:renderArticles</default>
+    </route>
+
+    <route id="portfolio_articles" path="/articles">
+        <default key="_controller">PortfolioBundle:Default:getArticles</default>
+    </route>
+
+    <route id="add_article" path="/add_article">
+        <default key="_controller">PortfolioBundle:Default:addArticle</default>
+    </route>
+
+    <route id="remove_article" path="/remove_article/{id}">
+        <default key="_controller">PortfolioBundle:Default:removeArticle</default>
+        <default key="id"> </default>
+    </route>
+
+    <route id="portfolio_updateArticle" path="/updateArticle/{id}">
+        <default key="_controller">PortfolioBundle:Default:updateArticle</default>
+    </route>
+
+    <route id="portfolio_contact" path="/contact">
+        <default key="_controller">PortfolioBundle:Default:getEmail</default>
+    </route>
+
+    <route id="portfolio_blog" path="/blog">
+        <default key="_controller">PortfolioBundle:Default:blog</default>
+    </route>
+
+    <route id="portfolio_all_articles" path="/all_articles">
+        <default key="_controller">PortfolioBundle:Default:getArticles</default>
+    </route>
+
+    <route id="portfolio_all_side_bar" path="/side_bar">
+        <default key="_controller">PortfolioBundle:Default:getSideBar</default>
+    </route>
+
+
+    <route id="portfolio_publishedArticles" path="/publishedArticles">
+        <default key="_controller">PortfolioBundle:Default:publishedArticles</default>
+    </route>
+
+    <route id="portfolio_contact_form" path="/contact_form">
+        <default key="_controller">PortfolioBundle:Contact_form:simpleForme</default>
+    </route>
+
+
+
+    <route id="portfolio_form_articles" path="/form_articles">
+        <default key="_controller">PortfolioBundle:Default:formArticles</default>
+    </route>
+
+    <route id="portfolio_share_button" path="/share_button">
+        <default key="_controller">PortfolioBundle:Default:shareButton</default>
+    </route>
+
+    <route id="portfolio_logout" path="/logout">
+        <default key="_controller">AppBundle:Default:logout</default>
+    </route>
+
+</routes>

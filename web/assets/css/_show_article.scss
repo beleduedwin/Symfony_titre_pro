@@ -1,0 +1,147 @@
+.show_article_bloc{
+  padding-top: $sectPaddingTop;
+  padding-bottom: 45px;
+}
+.show_article_bloc h3:hover{
+  color: #036;
+}
+.show_article_content{
+  font-size: 17px;
+}
+.recent_article_bloc p{
+  text-align: center;
+}
+/************* show and hidden comments ************/
+
+.box, .bg-info {
+  padding: 10px;
+}
+.bg-info {
+  display: none;
+}
+.count_comments{
+  color: #2279c9;
+}
+/****************** picto Style **********************/
+
+.top_article{
+  height: 25px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  padding-top: 0;
+}
+.top_article p{
+  color: #5e5e5e;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.img_autor{
+  width: 20px;
+  height: 20px;
+  margin-right:10px;
+}
+.img_autor img{
+  width: 100%;
+  height: 100%;
+}
+.show_img{
+  width: 100%;
+}
+
+/****************** Comments Style **********************/
+
+.pseudo{
+  color: #198fff;
+  padding-top: 10px;
+}
+.bloc_picto_comments{
+  display: flex;
+}
+.bloc_picto_comments p{
+  padding-left: 10px;
+}
+
+/****************** Side bar ***************************/
+
+.recent_article_bloc{
+  padding-left: 40px;
+  padding-top: 10px;
+  background-size: cover;
+  min-height: 900px;
+}
+.recent_article_bloc h4{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight:normal;
+  padding-top: 5px;
+
+  background: #d50303;
+
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.side_bar_titre h3, p{
+  font-size: 13px;
+  text-align: left;
+  padding-bottom: 0px;
+}
+//.last-art{
+//  background-color: #eee;
+//  //ma: 45px;
+//}
+.row_1{
+  padding-top: 10px;
+}
+
+/************************* form article *******************/
+
+.form_article_title{
+  padding-top: 150px;
+}
+
+/************************ published article *****************/
+
+img{
+  width: 100%;
+}
+.articles_bloc{
+  display: flex;
+  justify-content: right;
+}
+.top_article{
+  height: 25px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  padding-top: 0;
+}
+.top_article p{
+  color: #5e5e5e;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.img_autor{
+  width: 15px;
+  height: 15px;
+}
+
+.img_autor img{
+  width: 100%;
+  height: 100%;
+}
+.content_articles p{
+  color: #5e5e5e;
+}
+.content_articles h4{
+  font-size: 14px;
+  text-align: left;
+
+}

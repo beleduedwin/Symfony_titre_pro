@@ -1,0 +1,43 @@
+{% extends '@Portfolio/Default/bases/base_admin.html.twig' %}
+{% block body %}
+<div class="form_article_title dat">
+    <h1>Formulaire d'articles</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-9 col-sm-12 dat">
+            {{ form_start(form) }}
+            <div class="form-group">
+
+                {{ form_label(form.image, 'Image de l\'article') }}
+                {{ form_errors(form.image) }}
+                {{ form_widget(form.image,{'label_attr':{'class':'form-control'} }) }}
+            </div>
+
+            <div class="form-group">
+                {{ form_label(form.title, 'Titre de l\'article') }}
+                {{ form_errors(form.title) }}
+                {{ form_widget(form.title,{'label_attr':{'class':'form-control'} }) }}
+            </div>
+
+            <div class="form-group">
+                {{ form_label(form.content, 'Contenu de l\'article') }}
+                {{ form_errors(form.content) }}
+                {{ form_widget(form.content,{'label_attr':{'class':'form-control'} }) }}
+            </div>
+            {{ form_end(form) }}
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
